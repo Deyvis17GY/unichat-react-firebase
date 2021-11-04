@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/unichat-react-firebase/static/css/main.37448acd.chunk.css",
-    "main.js": "/unichat-react-firebase/static/js/main.8188e23b.chunk.js",
-    "main.js.map": "/unichat-react-firebase/static/js/main.8188e23b.chunk.js.map",
-    "runtime-main.js": "/unichat-react-firebase/static/js/runtime-main.838f5e9c.js",
-    "runtime-main.js.map": "/unichat-react-firebase/static/js/runtime-main.838f5e9c.js.map",
-    "static/js/2.6d022438.chunk.js": "/unichat-react-firebase/static/js/2.6d022438.chunk.js",
-    "static/js/2.6d022438.chunk.js.map": "/unichat-react-firebase/static/js/2.6d022438.chunk.js.map",
-    "index.html": "/unichat-react-firebase/index.html",
-    "precache-manifest.5dbaf05fcca368720fb7c6e0ffe685ac.js": "/unichat-react-firebase/precache-manifest.5dbaf05fcca368720fb7c6e0ffe685ac.js",
-    "service-worker.js": "/unichat-react-firebase/service-worker.js",
-    "static/css/main.37448acd.chunk.css.map": "/unichat-react-firebase/static/css/main.37448acd.chunk.css.map",
-    "static/js/2.6d022438.chunk.js.LICENSE.txt": "/unichat-react-firebase/static/js/2.6d022438.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.37448acd.chunk.css",
+    "main.js": "/static/js/main.8188e23b.chunk.js",
+    "main.js.map": "/static/js/main.8188e23b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cdd681a7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cdd681a7.js.map",
+    "static/js/2.6d022438.chunk.js": "/static/js/2.6d022438.chunk.js",
+    "static/js/2.6d022438.chunk.js.map": "/static/js/2.6d022438.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d44b0368ebcc4848df1ffca3b8feca7c.js": "/precache-manifest.d44b0368ebcc4848df1ffca3b8feca7c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.37448acd.chunk.css.map": "/static/css/main.37448acd.chunk.css.map",
+    "static/js/2.6d022438.chunk.js.LICENSE.txt": "/static/js/2.6d022438.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.838f5e9c.js",
+    "static/js/runtime-main.cdd681a7.js",
     "static/js/2.6d022438.chunk.js",
     "static/css/main.37448acd.chunk.css",
     "static/js/main.8188e23b.chunk.js"
