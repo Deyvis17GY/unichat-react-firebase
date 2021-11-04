@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96815908f981c9d1fb7cf8af720938ca",
+    "revision": "4594dc583f31b27d922ded721d3504bb",
     "url": "/unichat-react-firebase/index.html"
   },
   {
-    "revision": "aad0b176f8b346b29419",
+    "revision": "bde6b6f148e1b1cf0ab3",
     "url": "/unichat-react-firebase/static/css/main.37448acd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/unichat-react-firebase/static/js/2.6d022438.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aad0b176f8b346b29419",
-    "url": "/unichat-react-firebase/static/js/main.121335a8.chunk.js"
+    "revision": "bde6b6f148e1b1cf0ab3",
+    "url": "/unichat-react-firebase/static/js/main.8188e23b.chunk.js"
   },
   {
     "revision": "0c3dfb7ff717feb92de5",

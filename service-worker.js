@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/unichat-react-firebase/precache-manifest.e85bb3f28cb2df7639d955caf6f55622.js"
+  "/unichat-react-firebase/precache-manifest.5dbaf05fcca368720fb7c6e0ffe685ac.js"
 );
 
 self.addEventListener('message', (event) => {
