@@ -14,37 +14,34 @@ export const AuthProvider = ({ children }) => {
   const history = useHistory();
 
   useEffect(() => {
-    // const unsubscribe =
-    auth.onAuthStateChanged((authUser) => {
-      setUser(authUser);
-      setLoading(false);
+    const unsubscribe = auth.onAuthStateChanged(async (authUser) => {
+      // setUser(authUser);
+      // setLoading(false);
       if (authUser) {
-        // const userRef = await auth.currentUser.getIdTokenResult();
-        // setCurrentUser(authUser);
-        // // setCurrentUser({
-        // //   displayName: authUser.displayName,
-        // //   email: authUser.email,
-        // //   emailVerified: authUser.emailVerified,
-        // //   isAnonymous: authUser.isAnonymous,
-        // //   photoURL: authUser.photoURL,
-        // //   uid: authUser.uid,
-        // //   providerData: authUser.providerData,
-        // //   token: userRef.token,
-        // // });
-        // setLoading(false);
+        //const userRef = await auth.currentUser.getIdTokenResult();
+        setUser(authUser);
+        // setUser({
+        //   displayName: authUser.displayName,
+        //   email: authUser.email,
+        //   emailVerified: authUser.emailVerified,
+        //   isAnonymous: authUser.isAnonymous,
+        //   photoURL: authUser.photoURL,
+        //   uid: authUser.uid,
+        //   providerData: authUser.providerData,
+        //   token: userRef.token,
+        // });
+        setLoading(false);
         history.push("/chats");
       } else {
-        // setCurrentUser(null);
-        // setLoading(false);
+        setUser(null);
+        setLoading(false);
         history.push("/");
       }
     });
-    // return () => {
-    //   unsubscribe();
-    // };
+    return () => {
+      unsubscribe();
+    };
   }, [user, history]);
-
-  const value = { user };
 
   const signIn = async (email, password) => {
     try {
@@ -71,7 +68,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   return (
-    <AuthContext.Provider value={value}>
+    <AuthContext.Provider value={{ user, signIn, signOut, signUp }}>
       {!loading && children}
     </AuthContext.Provider>
   );

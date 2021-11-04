@@ -99,3 +99,34 @@
   left: calc(50vw - 33px);
   top: calc(50vh - 22px);
 }
+
+.ce-chats-container {
+  /* position: absolute !important;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; */
+}
+.ce-chat-list-mobile-option {
+  position: fixed !important;
+  box-sizing: border-box;
+  min-height: 10px !important;
+  /* position: relative; */
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100% !important;
+  /* flex: 0 0 16.6667%;
+  max-width: 16.6667%; */
+  margin-left: 0%;
+  right: auto;
+  left: 6px;
+  top: 32px;
+  text-align: center;
+  color: rgb(24, 144, 255);
+  overflow: hidden;
+}
+.ce-chat-feed {
+  height: 100% !important;
+  max-height: 100vh !important;
+  background-color: rgb(240, 240, 240);
+}

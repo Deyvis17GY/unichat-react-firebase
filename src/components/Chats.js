@@ -12,7 +12,6 @@ const Chats = () => {
   const [loading, setLoading] = useState(true);
 
   const handleLogout = async () => {
-    console.log("logout");
     await auth.signOut();
     history.push("/");
   };
@@ -37,7 +36,6 @@ const Chats = () => {
         },
       })
       .then((res) => {
-        console.log("Respuesta", res);
         setLoading(false);
       })
       .catch(() => {
@@ -54,7 +52,6 @@ const Chats = () => {
               },
             })
             .then((res) => {
-              console.log("avatar", res);
               setLoading(false);
             })
             .catch((error) => {
