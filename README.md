@@ -1,15 +1,24 @@
 # Unichat Application
+A simple chat application with google and facebook authentication.
 
-![Chat Application](https://i.ibb.co/GJwyy9m/Bv9-Js3-QLOLY-HD.jpg)
+# Screenshots
+## Login
+![preview](./docs/img/login.png)
+## Chat
+![preview](./docs/img/home.png)
 
-## Introduction
-
-This is a code repository for the corresponding video tutorial. In this video, we create a full Realtime Chat Application with Social Auth and dedicated chat APIs/sockets.
-
-You will learn how to build a react chat app using [https://chatengine.io](https://chatengine.io)
-
-Firebase and Chat Engine are greats tools to setup apps fast and easily - great to learn with!
-
-### Bonus - E-mail notifications
-
-If you want to upgrade this chat application even further than what is shown in the video, you can add e-mail notifications. More info on https://chatengine.io/docs/email_notifications.
+# Tools
+- [React](https://reactjs.org/) - Framework
+- [https://chatengine.io](https://chatengine.io/) - Chat Engine
+- [Netlify](https://www.netlify.com/) - Deployment
+- [Firesaber](https://firebase.google.com/) - Firebase
+# Deployment
+The application is shown in [Netlify](https://www.netlify.com/) at the following [link](https://chat-group-react.netlify.app/)
+# To run locally
+1. Clone this repository
+2. Create your account at [https://chatengine.io/](https://chatengine.io/) to get your Key
+3. Run ```yarn install```
+4. Execute ```yarn start```
+### Credits
+This application follows a tutorial from the youtuber "JavaScript Mastery" 
+[tutorial](https://youtu.be/Bv9Js3QLOLY) where the start and deployment of the application is explained
